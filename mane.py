@@ -8,7 +8,7 @@ from  PIL import Image, ImageEnhance
 
 from face_detection import select_face, select_all_faces
 from face_swap import face_swap
-
+insightface-cli model.download buffalo_l
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='FaceSwapApp')
     parser.add_argument('--correct_color', default=True, action='store_true', help='Correct color')
